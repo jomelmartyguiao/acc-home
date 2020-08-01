@@ -3,7 +3,7 @@ $(document).ready(function(){
       var scroll = $(window).scrollTop();
 
        //>=, not <=
-      if (scroll >= 600) {
+      if (scroll >= 150) {
           //clearHeader, not clearheader - caps H
           $(".header-nav").addClass("fixed-top");
           // alert('yey')
