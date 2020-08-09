@@ -37,6 +37,9 @@ export const Navigation = ({ from, region }) => {
 			          <Link className="dropdown-item" to="/">Something else here</Link>
 			        </div>
 			      </li>
+						<li className="nav-item">
+			        <Link className="nav-link" to="/">Readings</Link>
+			      </li>
 			       <li className="nav-item">
 			        <Link className="nav-link" to="/">Contact Us</Link>
 			      </li>
